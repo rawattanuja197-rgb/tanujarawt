@@ -1,17 +1,19 @@
 *{
-    margin: 0;
-    padding: 0;
-    
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(238, 238, 93, 0.839),rgba(238, 238, 93, 0.839)),url(images/a2.jpg);
+    background-size: cover;
+    position: relative;
 }
 nav{
     display: flex;
-    padding:5px;
+    padding: 15px 15px;
+    
     justify-content: space-between;
-    align-items: center;
-    background: rgb(227, 13, 13);
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius: 10px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.492);
 }
 nav img{
     width: 150px;
@@ -25,25 +27,20 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    position: relative;    
+    position:relative;
+    padding:20px 5px ;
 }
 .nav-links ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size:16px ;
-    font-weight: 500;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
 }
-body{
-    background: rgba(255, 255, 0, 0.284);
-}
+
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background-color: rgba(255, 255, 0, 0.889);
+    background-color: #f44336;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -54,47 +51,104 @@ body{
 }
 .text-box{
     width: 90%;
-    color: rgba(23, 2, 2, 0.806);
     position: absolute;
-   margin: auto;
-   padding-top: 100px;
-   padding-left: 60px;
-   
-    text-align: justify;
+    color: rgb(32, 31, 31);
+    top: 50%;
+    left:50%;
+   transform: translate(-50%,-50%);
 }
 p span {color: rgb(227, 13, 13);
+    font-weight: bold;
 
 }
-h1{
+.text-box h1{
     font-size: 62px;
     margin-bottom: 20px;
 }
-p{
+.text-box p{
  font-size: 20px;
  font-weight: 300;
+ margin-top: 20px;
 
 }
 .visit{
     display: inline-block;
     text-decoration: none;
-    color:black;
-    border:1px solid black;
-    padding:12px  ;
-    font-size:20px ;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background: transparent;
     position: relative;
     cursor: pointer;
-    margin-top: 30px;
-    text-align: center;
-
+    margin-top:30px ;
+   margin-left: 45%;
 
 }
 .visit:hover{
-    border:rgb(227, 13, 13);
-    background: rgb(227, 13, 13);
+    border: #f44336;
+    background: #f44336;
     color: white;
-    transition: 0.5s;
+    transition: 1s ;
 }
-h2{
+/*course*/
+.course{
+    width: 80%;
+    margin: auto;
     text-align: center;
-    margin-top: 10px;
+    padding-top:100px;
 }
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+}    
+ .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .course-box{
+    width: 350px;
+    background: #dbd9d9;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 13px;
+    //box-sizing: border-box;
+    
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px ;
+    font-size: 20px;
+}
+.course-box:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
+    transition: 0.5s;
+
+}
+.Faculty{
+    width: 100%;
+    //margin: auto;
+    text-align: center;
+    padding-top:50px;
+    background: #eeecec;
+
+}
+.Faculty p{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+a:link{color:rgb(0, 0, 0);text-decoration:none;}
+a:visited{color:rgb(0, 0, 0);}
