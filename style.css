@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 .header{
     min-height: 100vh;
     width: 100%;
@@ -64,6 +67,7 @@ p span {color: rgb(227, 13, 13);
 .text-box h1{
     font-size: 62px;
     margin-bottom: 20px;
+    margin-left: 11px;
 }
 .text-box p{
  font-size: 20px;
@@ -146,9 +150,254 @@ h3{
 .Faculty p{
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 70px;
+    margin-bottom: -60px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    
 }
 a:link{color:rgb(0, 0, 0);text-decoration:none;}
 a:visited{color:rgb(0, 0, 0);}
+.facultybox{
+    /*border-radius: 10px;*/
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    //flex-basis:35% ;
+    
+}
+ .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10;
+    transition: 0.5s;
+}
+.layer:hover{
+     background: rgba(226,0,0,0.7);
+}
+.layer1{
+      background: transparent;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10;
+    transition: 0.5s;
+}
+.layer1:hover{
+     background: rgba(226,0,0,0.7);
+}
+.facultybox1{
+      margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width:30% ;
+}
+.layer h1{
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    transition: 0.5s;
+   
+
+}
+.text-box h3{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: -25px;
+    
+}
+.layer1 h1{
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h1{
+    bottom: 49%;
+   
+    
+}
+.layer1:hover h1{
+    bottom: 49%;
+    
+    
+}
+.layer2{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10;
+    transition: 0.5s;
+}
+.layer2:hover h1{
+    bottom: 49%;
+    
+    
+}
+.layer2:hover{
+     background: rgba(226, 226, 0, 0.7);
+}
+.layer2 h1{
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    transition: 0.5s;
+   }
+   .ro{
+    display: flex;
+   }
+   .choose {
+    background: #ffffffc0;
+    height: 600px;
+    text-align: center;
+    padding-top: 10px;
+
+
+   }
+   .choose h1{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+ 
+   .choosey img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .choosey h3{
+
+    padding: 0%;
+    margin-top: 16px;
+    margin-bottom: 15px;
+
+
+   }
+   .choosey p{padding: 0;
+     margin-top: -10px;
+    }
+    .ca{
+        margin: auto ;
+        margin-top: 30px;
+        
+        background-image: linear-gradient(rgba(238, 238, 93, 0.839),rgba(238, 238, 93, 0.839)),url(images/a2.jpg);
+        background-position: center;
+        background-size: cover;
+        
+        text-align: center;
+        padding: 100px 0;
+    }
+    .ca h1{
+        color: rgb(32, 32, 32);
+        margin-bottom: 40px;
+        padding: 0;
+
+    }
+    .visit2{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top:30px ;
+   
+
+}
+.visit2:hover{
+    border: #f44336;
+    background: #f44336;
+    color: white;
+    transition: 1s ;
+}
+.aboutus{margin-top: 130px;
+    background-color: #dbd9d9;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+
+    
+
+   @media(max-width:600px){
+    .text-box h1{
+        font-size: 33px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .text-box p{
+        font-size: 18px;
+        margin-top: -20px;
+        line-height: 21px;
+    }
+    .visit{
+        
+        margin-left: 2%;
+    }
+    .row{
+        flex-direction: column;
+       
+    }
+    .course{
+        margin-top: -10%;
+    }
+    .course h1{
+        font-size: 35px;
+    }
+    .course p{
+        font-size: 17px;
+    }.Faculty h1{
+        font-size: 30px;
+    }
+    .Faculty p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .facultybox1{
+      margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width:100% ;
+}
+.layer1:hover{
+    height: 100%;
+}
+.text-box h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: -20px;
+
+}
+.ro{
+    display: block;
+}
+.choose{
+    height: 1300px;
+}
+.ca h1{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+   }
