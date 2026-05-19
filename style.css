@@ -357,7 +357,6 @@ a:visited{color:rgb(0, 0, 0);}
 
 
 
-
     
 
    @media(max-width:600px){
@@ -427,3 +426,78 @@ a:visited{color:rgb(0, 0, 0);}
 }
 
    }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+   .text-box h1{
+        font-size: 33px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .text-box p{
+        font-size: 18px;
+        margin-top: -20px;
+        line-height: 21px;
+    }
+    .visit{
+        
+        margin-left: 2%;
+    }
+    .choosey h3{
+        font-size: 25px;   }
+    .choosey p{
+        font-size: 20px;
+    }
+    .aboutus p{
+        font-size: 20px;line-height: 1.5;
+    }
+    .row{
+        flex-direction: column;
+        
+       
+    }
+    .course-box{
+        width: 90%;
+}
+    .course{
+        margin-top: -10%;
+        width: 80%;
+    }
+    .course h1{
+        font-size: 35px;padding-top: 20px;
+    }
+    .course p{
+        font-size: 20px;line-height: 1.5;
+    }.Faculty h1{
+        font-size: 28px;
+    }
+    .Faculty p{
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .facultybox1{
+      margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width:100% ;
+}
+.layer1:hover{
+    height: 100%;
+}
+.text-box h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: -20px;
+
+}
+.ro{
+    display: block;
+}
+.choose{
+    height: 1300px;
+}
+.ca h1{
+    font-size: 30px;
+    margin-bottom: -20px;
+}   
+}
