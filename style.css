@@ -59,6 +59,7 @@ nav img{
     top: 50%;
     left:50%;
    transform: translate(-50%,-50%);
+ 
 }
 p span {color: rgb(227, 13, 13);
     font-weight: bold;
@@ -68,6 +69,9 @@ p span {color: rgb(227, 13, 13);
     font-size: 62px;
     margin-bottom: 20px;
     margin-left: 11px;
+       font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal
 }
 .text-box p{
  font-size: 20px;
@@ -103,7 +107,10 @@ p span {color: rgb(227, 13, 13);
 }
 h1{
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 900;
+       font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal
 
 }
 p{
@@ -133,6 +140,7 @@ h3{
     font-weight: 600;
     margin: 10px ;
     font-size: 20px;
+
 }
 .course-box:hover{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
@@ -360,9 +368,19 @@ a:visited{color:rgb(0, 0, 0);}
     
 
    @media(max-width:600px){
+    .header{
+        background-image: linear-gradient(rgba(238, 238, 93, 0.839),rgba(238, 238, 93, 0.89)),url(images/are.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        object-fit: contain;
+        min-height: 90vh;
+        width: 100%;
+        
+    }
     .text-box h1{
         font-size: 33px;
-        margin-top: 50px;
+        margin-top: 90px;
         margin-left: 10px;
     }
     .text-box p{

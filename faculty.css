@@ -77,7 +77,178 @@ html{
             box-shadow: 2px 2px 10px black;
 
         }
-        @media(max-width:600px){
+
+        .ui
+        {
+         background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(238, 238, 93, 0.839)),url(images/UI.png);   
+        margin-top: -100px;
+height: 700px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    }.ui h1{
+        text-align: center;
+        padding-top: 400px;
+        font-size: 60px;
+    }
+    .ux p{
+   background: rgb(226, 226, 226);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:25px;
+    margin-bottom: 30px;
+        }
+        .ux ul li{
+            list-style-position: inside;
+            margin-left: 550px;
+            font-size: 25px;
+            line-height: 40px;
+        }
+         #as{
+         background: rgb(226, 226, 226);
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+             padding-left: 100px;
+             margin-bottom: 50px;
+             font-size: 20px;
+            margin-top: 30px;
+            margin-right: 60px;
+            border-top-right-radius: 20px;
+            box-shadow: 2px 2px 10px black;}
+
+        
+        .vd{
+            background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(238, 238, 93, 0.839)),url(images/vdd.png);
+             min-height: 700px;
+    width: 100%;
+    
+    background-size: cover;
+    position: relative;
+    margin-bottom: 25px;
+        }
+        .vd h1{
+            text-align: center;
+            padding-top: 350px;
+            font-size: 60px;
+
+        }
+        .de p{
+            background: rgb(226, 226, 226);
+        padding-top:70px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: -30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size:25px;
+    margin-bottom: 30px;
+        }
+        .legacy h1{
+        background-color:#ddddd68e ;
+        padding-bottom: 20px;
+        font-weight: 100;
+        padding-top:20px;
+        margin-top: 50px;
+        /*border-top-left-radius: 20px;*/
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.608);
+        padding-left: 20px;
+        margin-bottom: 70px;
+        //box-shadow: 2px 2px 10px black;
+
+    }
+    .top{
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+    }
+          .visit{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    //margin-top:30px ;
+   margin-left:10px;
+
+}
+.visit:hover{
+    border: #f44336;
+    background: #f44336;
+    color: white;
+    transition: 1s ;
+}
+        .de ul li{
+              list-style-position: inside;
+            margin-left: 550px;
+            font-size: 25px;
+            line-height: 40px;
+        }
+    #vdi{
+        background: rgb(226, 226, 226);
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+             padding-left: 200px;
+             margin-bottom: 50px;
+             font-size: 20px;
+            margin-top: 30px;
+            margin-left: 60px;
+            border-top-left-radius: 20px;
+            box-shadow: 2px 2px 10px black;
+
+
+    }
+    #top{
+        font-size: 20px;
+        padding-bottom: 50px;
+        margin-left: 1400px;
+        border: none;
+        
+    }
+       a:link{color:rgb(0, 0, 0);text-decoration:none;}
+a:visited{color:rgb(0, 0, 0);}
+.foot{
+        font-weight: 200;
+        padding-top: 20px;
+    }
+    .quick{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 200;
+    }
+    .quick p{
+        padding-bottom: 20px;
+        color: rgb(0, 0, 0);
+    }
+    .footer {
+        background: #FFFBA7;
+        margin-top: 20px;
+    }
+    .footer p{
+        color:rgb(0, 0, 0);
+        text-align: center;
+        padding:2px ;
+    }
+    .end{
+        background: #FFEA6C;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        font-weight: 200;
+        color: white;
+        
+    }
+            @media(max-width:600px){
         .header{background-image: none;
     
 }
@@ -167,6 +338,54 @@ html{
         color:rgb(44, 43, 43) 
         }
         .ux p{
+           background: rgb(226, 226, 226);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:20px;
+    margin-bottom: 30px;
+        }
+        .ux ul li{
+           list-style-position: inside;
+            margin-left: 30px;
+            font-size: 20px;
+            
+            line-height: 25px;
+        }
+            #as{
+      margin-top: 30px;
+            margin-right: 60px;
+             background: rgb(226, 226, 226);
+            font-size: 19px;
+            text-align: center;
+            padding: 5%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+                margin-bottom: 10px;
+            border-top-right-radius: 20px;
+            box-shadow: 2px 2px 10px black;}
+        
+    .vd{
+            background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(238, 238, 93, 0.839)),url(images/vdd.png);
+             min-height: 700px;
+    width: 100%;
+    
+    background-size: cover;
+    position: relative;
+    margin-bottom: 25px;
+        }
+        .vd h1{
+            text-align: center;
+        padding-top: 300px;
+        padding-bottom: 150px;
+        font-size: 40px;
+        color:rgb(44, 43, 43)
+
+        }
+        .de p{
             background: rgb(226, 226, 226);
         padding-top: 50px;
         padding-bottom: 50px;
@@ -174,17 +393,173 @@ html{
         margin-top: -30px;
         padding-left: 10px;
         padding-right: 10px;
-        font-size:10px;
+        font-size:20px;
     margin-bottom: 30px;
         }
-        .ux ul li{
-           list-style-position: inside;
-            margin-left: 0px;
-            font-size: 2px;
+        .legacy h1{
+        background-color:#ddddd68e ;
+        padding-bottom: 20px;
+        font-weight: 100;
+        padding-top:20px;
+        font-size: 30px;
+        margin-top: 50px;
+        /*border-top-left-radius: 20px;*/
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.608);
+        padding-left: 20px;
+        margin-bottom: 70px;
+        //box-shadow: 2px 2px 10px black;
+
+    }
+    
+          .visit{
+    display: inline-block;
+    text-decoration: none;
+    color: black;font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    //margin-top:30px ;
+   margin-left:10px;
+
+}
+.visit:hover{
+    border: #f44336;
+    background: #f44336;
+    color: white;
+    transition: 1s ;
+}
+        .de ul li{
+             list-style-position: inside;
+            margin-left: 30px;
+            font-size: 20px;
+            
             line-height: 25px;
         }
-        
+    #vdi{
+         margin-top: 30px;
+            margin-left: 60px;
+             background: rgb(226, 226, 226);
+            font-size: 19px;
+            text-align: center;
+            padding: 2%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+                margin-bottom: 40px;
+            border-top-left-radius: 20px;
+            box-shadow: 2px 2px 10px black;
+
     }
+ 
+       a:link{color:rgb(0, 0, 0);text-decoration:none;}
+a:visited{color:rgb(0, 0, 0);}
+.foot{
+        font-weight: 200;
+        padding-top: 20px;
+    }
+    .quick{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 200;
+    }
+    .quick p{
+        padding-bottom: 20px;
+        color: rgb(0, 0, 0);
+    }
+    .footer {
+        background: #FFFBA7;
+        margin-top: 20px;
+    }
+    .footer p{
+        color:rgb(0, 0, 0);
+        text-align: center;
+        padding:2px ;
+    }
+    .end{
+        background: #FFEA6C;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        font-weight: 200;
+        color: white;
+        
+    }}
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+.header{
+  background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: contain;
+        min-height: 100vh;
+        width: 100%;
+}
+
+.header h1{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(44, 43, 43);
+}
+.wjh{
+    background: rgb(226, 226, 226);
+    padding: 50px;
+    margin-top: -50px;
+}
+.wjh p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .rangrogan{
+         background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(238, 238, 93, 0.839)),url(images/ssss.png);
+        min-height: 700px;
+    width: 100%;
+    
+    background-size: cover;
+    position: relative;
+    margin-bottom: 25px;
+    }
+    .rangrogan h1{
+        text-align: center;
+        padding-top: 200px;
+        font-size: 60px;
+        color:rgb(44, 43, 43) ;
+    }
+    .r p{
+        background: rgb(226, 226, 226);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: -30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:25px;
+    margin-bottom: 30px;}
+        .r ul li{
+            list-style-position: inside;
+            margin-left: 550px;
+            font-size: 25px;
+            line-height: 40px;
+        }
+        #al{
+             background: rgb(226, 226, 226);
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+             padding-left: 200px;
+             margin-bottom: 50px;
+             font-size: 20px;
+            margin-top: 30px;
+            margin-left: 60px;
+            border-top-left-radius: 20px;
+            box-shadow: 2px 2px 10px black;
+
+        }
+
         .ui
         {
          background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(238, 238, 93, 0.839)),url(images/UI.png);   
@@ -200,12 +575,12 @@ height: 700px;
     }
     .ux p{
    background: rgb(226, 226, 226);
-        padding-top:70px;
+        padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
-        margin-top: -30px;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin-top: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-size:25px;
     margin-bottom: 30px;
         }
@@ -216,18 +591,19 @@ height: 700px;
             line-height: 40px;
         }
          #as{
+         background: rgb(226, 226, 226);
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+             padding-left: 100px;
+             margin-bottom: 50px;
+             font-size: 20px;
             margin-top: 30px;
             margin-right: 60px;
             border-top-right-radius: 20px;
-            box-shadow: 2px 2px 10px black;
-            font-size: 25px;
-            padding-bottom: 20px;
-            padding-top: 20px;
-            padding-left: 20px;
-            background:  rgb(226, 226, 226);
-            margin-bottom: 50px;
+            box-shadow: 2px 2px 10px black;}
 
-        }
+        
         .vd{
             background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(238, 238, 93, 0.839)),url(images/vdd.png);
              min-height: 700px;
@@ -301,16 +677,18 @@ height: 700px;
             line-height: 40px;
         }
     #vdi{
-         margin-top: 30px;
+        background: rgb(226, 226, 226);
+       padding-top: 20px;
+       padding-bottom: 20px;
+
+             padding-left: 200px;
+             margin-bottom: 50px;
+             font-size: 20px;
+            margin-top: 30px;
             margin-left: 60px;
             border-top-left-radius: 20px;
             box-shadow: 2px 2px 10px black;
-            font-size: 25px;
-            padding-bottom: 20px;
-            padding-top: 20px;
-            padding-left: 20px;
-            background:  rgb(226, 226, 226);
-            margin-bottom: 50px;
+
 
     }
     #top{
@@ -351,5 +729,5 @@ a:visited{color:rgb(0, 0, 0);}
         font-weight: 200;
         color: white;
         
-    }
+    }}
    
