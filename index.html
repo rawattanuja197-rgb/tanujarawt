@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARENA ANIMATION</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/icons/Logos/instagram-line.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
+" rel="stylesheet">
+
+    
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,26 +25,31 @@
     <section class="header">
         <nav>
                 <a href="index.html"><img src="images/arena.png"></a>
-                <div class="nav-links">
+                
+                
+                <div class="nav-links" id="navlinks">
+                    <i class="ri-close-line" onclick="hidemenu()"></i>
                     <ul>
-                        <li><a href="#HOME">HOME</a></li>
+                        
                         <li><a href="#ABOUT">ABOUT</a></li>
                         <li><a href="#COURSE">COURSE</a></li>
                         <li><a href="#FACULTY">FACULTY</a></li>
                         <li><a href="#CONTACT">CONTACT</a></li>
                     </ul>
                 </div>
+                <i class="ri-menu-line" onclick="showmenu()"></i>
         </nav>
-        <a href="HOME">
+        <a href="#">
         <div class="text-box">
            <h1>ARENA ANIMATION</h1>
            <h3>GTB Nagar</h3>
+     
            
         <p>
             Arena Animation is a well-known institute that provides<span> professional training in animation, graphic design, VFX, web design, and UI/UX</span>.</br> It helps students build creative and technical skills needed for the media and entertainment industry.</br> The courses are designed to be practical, so students learn by working on real projects, which improves their confidence and portfolio. </br>Arena Animation also focuses on software tools like <span>Photoshop, Illustrator, After Effects, and Figma</span>, which are important for designers.</br> Many students choose Arena Animation because it offers career guidance, placement support, </br>and industry-relevant knowledge, making it a good option for those who want to build a career in creative fields.
 
-        </p><br>
-        <h3>still working on this site</h3>
+        </p>
+              <h2>"Recognised Leader Animation, VFX, Gaming & UI UX Design"</h2>
         <a href="#ABOUT" class="visit">Know More About Us </a>
         </div>
     </section>
@@ -149,14 +168,36 @@ Arena Animation has a wide network of centers across India and in multiple count
     
     </section>
    <section class="ca">
-    <a href="CONTACT">
+    <a name="CONTACT">
     <h1>
         Enroll</br>For our Various Courses
     </h1>
-    <a href="" class="visit2">CONTACT US</a>
+    <a href="contact.html" class="visit2">CONTACT US</a>
 </section>
-
-    
+<foooter>
+    <section class="footer">
+        <h4>GET READY TO BE SKILLED BY LEADER</h4>
+        <p>"Build your creative future with Arena"</p>
+        <div class="icons">
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-twitter-line"></i>
+            </div>
+            
+    </section>
+</foooter>
+<div class="end">
+                Copyright © All Rights Reserved by ARENA ANIMATION GTB NAGAR
+            </div>
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px"
+    }
+  </script>  
 
 
     
