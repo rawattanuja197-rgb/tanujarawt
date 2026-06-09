@@ -385,7 +385,20 @@ a:visited{color:rgb(0, 0, 0);}
 }
 .ri-close-line{display: none;}
 .ri-menu-line{display: none;}
-
+.icons{
+    font-size: 30px;
+}
+.ri-instagram-line{transition: 0.3s;
+}
+.ri-instagram-line:hover{
+    color: #f44336;
+}
+.ri-facebook-circle-line{transition: 0.3s;}
+.ri-facebook-circle-line:hover{color:#f44336;}
+.ri-youtube-line{transition: 0.3s;}
+.ri-youtube-line:hover{color: #f44336;}
+.ri-whatsapp-line{transition: 0.3s;}
+.ri-whatsapp-line:hover{color: #f44336;}
 
 
    @media screen and (max-width: 600px){
