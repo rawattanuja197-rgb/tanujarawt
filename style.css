@@ -395,7 +395,7 @@ a:visited{color:rgb(0, 0, 0);}
     }
    
     .header{
-        background-image: linear-gradient(rgba(238, 238, 93, 0.839),#f9f9b9e3),url(images/are.jpg);
+        background-image: linear-gradient(rgba(238, 238, 93, 0.839),#f9f9b9e3);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top;
